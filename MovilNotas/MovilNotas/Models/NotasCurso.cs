@@ -4,25 +4,37 @@ using Newtonsoft.Json;
 
 namespace MovilNotas.Models
 {
-	public class CursoDetalles
-	{
-		[JsonProperty("materia")]
-		public string Materia { get; set; }
+    public class CursoDetalles
+    {
+        [JsonProperty("id_materia")]
+        public int IdMateria { get; set; }
 
-		[JsonProperty("jornada")]
-		public string Jornada { get; set; }
+        [JsonProperty("id_jornada")]
+        public int IdJornada { get; set; }
 
-		[JsonProperty("paralelo")]
-		public string Paralelo { get; set; }
+        [JsonProperty("id_nivel")]
+        public int IdNivel { get; set; }
 
-		[JsonProperty("nivel")]
-		public string Nivel { get; set; }
+        [JsonProperty("id_paralelo")]
+        public int IdParalelo { get; set; }
 
-		[JsonProperty("carrera")]
-		public string Carrera { get; set; }
-	}
+        [JsonProperty("materia")]
+        public string Materia { get; set; }
 
-	public class ProfesorDetalles
+        [JsonProperty("jornada")]
+        public string Jornada { get; set; }
+
+        [JsonProperty("nivel")]
+        public string Nivel { get; set; }
+
+        [JsonProperty("paralelo")]
+        public string Paralelo { get; set; }
+
+        [JsonProperty("carrera")]
+        public string Carrera { get; set; }
+    }
+
+    public class ProfesorDetalles
 	{
 		[JsonProperty("nombres")]
 		public string Nombres { get; set; }

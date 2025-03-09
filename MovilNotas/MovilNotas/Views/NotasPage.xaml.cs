@@ -106,6 +106,10 @@ namespace MovilNotas.Views
                 var cursoDetalles = new CursoFlat
                 {
                     ProfesorMateriaId = _profesorMateriaId,
+                    IdMateria = _notasCurso.Curso.IdMateria,   // <-- Importante
+                    IdJornada = _notasCurso.Curso.IdJornada,   // <-- Importante
+                    IdNivel = _notasCurso.Curso.IdNivel,       // <-- Importante
+                    IdParalelo = _notasCurso.Curso.IdParalelo, // <-- Importante
                     Materia = _notasCurso.Curso.Materia,
                     Carrera = _notasCurso.Curso.Carrera,
                     Nivel = _notasCurso.Curso.Nivel,
@@ -120,5 +124,6 @@ namespace MovilNotas.Views
                 await DisplayAlert("Error", "No se pudo obtener la información del curso.", "OK");
             }
         }
+
     }
 }

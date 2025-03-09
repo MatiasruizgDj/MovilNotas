@@ -19,11 +19,17 @@ namespace MovilNotas.Views
             _apiService = new ApiService();
             _cursoSeleccionado = curso;
 
-            lblMateria.Text = curso.Materia;
+            lblMateria.Text = curso.IdMateria.ToString();
             lblJornada.Text = curso.Jornada;
             lblNivel.Text = curso.Nivel;
             lblParalelo.Text = curso.Paralelo;
+
+            Console.WriteLine($"Materia ID: {_cursoSeleccionado.IdMateria}");
+            Console.WriteLine($"Jornada ID: {_cursoSeleccionado.IdJornada}");
+            Console.WriteLine($"Nivel ID: {_cursoSeleccionado.IdNivel}");
+            Console.WriteLine($"Paralelo ID: {_cursoSeleccionado.IdParalelo}");
         }
+
 
         protected override async void OnAppearing()
         {
