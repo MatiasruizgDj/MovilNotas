@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\models\\notascurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\models\\notascurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\estudiantedetallespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\estudiantedetallespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\notaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\notaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\estudiantedetallespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\estudiantedetallespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\models\\cursodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\models\\cursodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\toucheffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\toucheffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\models\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\models\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\notaspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\notaspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\crearaportepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\crearaportepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\crearaportepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\crearaportepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DF72E7E3-E42E-4671-9865-E1DA234522B2}|MovilNotas\\MovilNotas\\MovilNotas.csproj|solutionrelative:movilnotas\\movilnotas\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{0005A56D-ECF4-4D55-827F-91586D9D1E5D}|MovilNotas\\MovilNotas.Android\\MovilNotas.Android.csproj|c:\\users\\oppsr\\onedrive\\escritorio\\git\\movilruiz\\movilnotas\\movilnotas\\movilnotas.android\\effects\\toucheffectandroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0005A56D-ECF4-4D55-827F-91586D9D1E5D}|MovilNotas\\MovilNotas.Android\\MovilNotas.Android.csproj|solutionrelative:movilnotas\\movilnotas.android\\effects\\toucheffectandroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,156 +43,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Notas.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\Notas.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Models\\Notas.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\Notas.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Models\\Notas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Title": "TouchEffectAndroid.cs",
+              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas.Android\\Effects\\TouchEffectAndroid.cs",
+              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas.Android\\Effects\\TouchEffectAndroid.cs",
+              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas.Android\\Effects\\TouchEffectAndroid.cs",
+              "RelativeToolTip": "MovilNotas\\MovilNotas.Android\\Effects\\TouchEffectAndroid.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T04:41:09.263Z",
+              "WhenOpened": "2025-03-09T06:28:30.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CursoDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\CursoDetalle.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Models\\CursoDetalle.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\CursoDetalle.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Models\\CursoDetalle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Title": "TouchEffect.cs",
+              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\TouchEffect.cs",
+              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\TouchEffect.cs",
+              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\TouchEffect.cs",
+              "RelativeToolTip": "MovilNotas\\MovilNotas\\TouchEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T04:40:52.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CrearAportePage.xaml",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T20:02:58.573Z",
+              "WhenOpened": "2025-03-09T06:26:08.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotasCurso.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\NotasCurso.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Models\\NotasCurso.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\NotasCurso.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Models\\NotasCurso.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
+              "Title": "EstudianteDetallesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml.cs",
+              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T02:56:56.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NotasPage.xaml",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\NotasPage.xaml",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\NotasPage.xaml",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\NotasPage.xaml",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\NotasPage.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T20:02:02.964Z",
+              "WhenOpened": "2025-03-09T06:10:08.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NotasPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\NotasPage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\NotasPage.xaml.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\NotasPage.xaml.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\NotasPage.xaml.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAwwGwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T20:02:10.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CrearAportePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\CrearAportePage.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T20:03:08.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\Curso.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Models\\Curso.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Models\\Curso.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Models\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:11:51.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\HomePage.xaml.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\HomePage.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAWwD4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:12:38.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T02:58:44.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Services\\ApiService.cs",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Services\\ApiService.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAIwAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T20:03:16.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\HomePage.xaml",
-              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\HomePage.xaml",
-              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\HomePage.xaml",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAkwJYAAAAOAAAAAAAAAA==",
+              "Title": "EstudianteDetallesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml",
+              "RelativeDocumentMoniker": "MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml",
+              "ToolTip": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml",
+              "RelativeToolTip": "MovilNotas\\MovilNotas\\Views\\EstudianteDetallesPage.xaml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-09T02:53:29.053Z"
+              "WhenOpened": "2025-03-09T06:10:07.483Z",
+              "EditorCaption": ""
             }
           ]
         }

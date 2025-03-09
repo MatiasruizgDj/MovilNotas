@@ -2566,3 +2566,4 @@ C:\Users\oppsr\OneDrive\Escritorio\git\movilruiz\MovilNotas\MovilNotas\MovilNota
 C:\Users\oppsr\OneDrive\Escritorio\git\movilruiz\MovilNotas\MovilNotas\MovilNotas.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\oppsr\OneDrive\Escritorio\git\movilruiz\MovilNotas\MovilNotas\MovilNotas.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\oppsr\OneDrive\Escritorio\git\movilruiz\MovilNotas\MovilNotas\MovilNotas.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\oppsr\OneDrive\Escritorio\git\movilruiz\MovilNotas\MovilNotas\MovilNotas.Android\obj\Debug\130\android\src\crc64e40950f2600742cc\TouchEffectAndroid_LongPressGestureListener.java

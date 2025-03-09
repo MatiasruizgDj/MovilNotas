@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms"
+
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MovilNotas.Views.EstudianteDetallesPage"
     BackgroundColor="#F4F4F4">
@@ -16,52 +17,85 @@
                 </StackLayout>
             </Frame>
 
-            <!-- CarouselView para los bimestres -->
-            <CarouselView ItemsSource="{Binding NotasList}" HorizontalScrollBarVisibility="Never">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout Padding="5">
-                            <!-- Encabezado del bimestre -->
-                            <Label Text="{Binding Bimestre}" FontSize="18" FontAttributes="Bold" TextColor="#2980B9" HorizontalOptions="Center" Margin="0,0,0,10"/>
+            <!-- Formulario de edición de aporte -->
+            <Frame x:Name="FormularioAporte" IsVisible="False" Padding="10" Margin="10" CornerRadius="10" HasShadow="True">
+                <StackLayout Spacing="10">
+                    <Label Text="Editar Aporte" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
 
-                            <!-- Lista de categorías -->
-                            <StackLayout BindableLayout.ItemsSource="{Binding CategoriasList}" Spacing="15">
-                                <BindableLayout.ItemTemplate>
-                                    <DataTemplate>
-                                        <StackLayout>
-                                            <!-- Categoría como header con fondo gris -->
-                                            <Frame BackgroundColor="#EAEAEA" Padding="10" CornerRadius="5" HasShadow="False" Margin="0,0,0,10">
-                                                <Label Text="{Binding Categoria}" FontSize="15" FontAttributes="Bold" TextColor="#34495E"/>
-                                            </Frame>
+                    <Label Text="Título del Aporte:" FontAttributes="Bold"/>
+                    <Entry x:Name="TituloEntry" Placeholder="Ingrese el título"/>
 
-                                            <!-- Aportes -->
-                                            <StackLayout BindableLayout.ItemsSource="{Binding Aportes}" Spacing="10">
-                                                <BindableLayout.ItemTemplate>
-                                                    <DataTemplate>
-                                                        <Frame BorderColor="#DDDDDD" BackgroundColor="White" Padding="10" Margin="0,0,0,5" CornerRadius="5" HasShadow="False">
-                                                            <StackLayout>
-                                                                <Grid>
-                                                                    <Grid.ColumnDefinitions>
-                                                                        <ColumnDefinition Width="*"/>
-                                                                        <ColumnDefinition Width="Auto"/>
-                                                                    </Grid.ColumnDefinitions>
-                                                                    <Label Text="{Binding Titulo}" FontSize="15" FontAttributes="Bold" TextColor="#2C3E50" Grid.Column="0"/>
-                                                                    <Label Text="{Binding Nota}" FontSize="15" TextColor="#C0392B" FontAttributes="Bold" Grid.Column="1"/>
-                                                                </Grid>
-                                                                <Label Text="{Binding Descripcion}" FontSize="13" TextColor="#7F8C8D" Margin="0,5,0,0"/>
-                                                            </StackLayout>
-                                                        </Frame>
-                                                    </DataTemplate>
-                                                </BindableLayout.ItemTemplate>
+                    <Label Text="Nota:" FontAttributes="Bold"/>
+                    <Entry x:Name="NotaEntry" Keyboard="Numeric" Placeholder="Ingrese la nota"/>
+
+                    <Label Text="Descripción:" FontAttributes="Bold"/>
+                    <Editor x:Name="DescripcionEditor" Placeholder="Ingrese la descripción" HeightRequest="100"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+                        <Button Text="Guardar" BackgroundColor="#27AE60" TextColor="White" Clicked="OnGuardarAporte"/>
+                        <Button Text="Eliminar" BackgroundColor="#E74C3C" TextColor="White" Clicked="OnEliminarAporte"/>
+                        <Button Text="Cancelar" BackgroundColor="#7F8C8D" TextColor="White" Clicked="OnCancelarEdicion"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <!-- Stack que contiene el CarouselView -->
+            <StackLayout x:Name="NotasContainer" IsVisible="True">
+                <CarouselView ItemsSource="{Binding NotasList}" HorizontalScrollBarVisibility="Never">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5">
+                                <Label Text="{Binding Bimestre}" FontSize="18" FontAttributes="Bold" TextColor="#2980B9" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                                <StackLayout BindableLayout.ItemsSource="{Binding CategoriasList}" Spacing="15">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackLayout>
+                                                <Frame BackgroundColor="#EAEAEA" Padding="10" CornerRadius="5" HasShadow="False" Margin="0,0,0,10">
+                                                    <Label Text="{Binding Categoria}" FontSize="15" FontAttributes="Bold" TextColor="#34495E"/>
+                                                </Frame>
+                                                <StackLayout BindableLayout.ItemsSource="{Binding Aportes}" Spacing="10">
+                                                    <BindableLayout.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Frame BorderColor="#DDDDDD" BackgroundColor="White" Padding="10" Margin="0,0,0,5" CornerRadius="5" HasShadow="False">
+                                                                <StackLayout>
+                                                                    <!-- Aquí movemos el TapGestureRecognizer al StackLayout -->
+                                                                    <StackLayout.GestureRecognizers>
+                                                                        <TapGestureRecognizer 
+                                                                            Tapped="OnAporteSeleccionado" 
+                                                                            CommandParameter="{Binding}" 
+                                                                            BindingContext="{Binding .}" />
+                                                                    </StackLayout.GestureRecognizers>
+
+                                                                    <Grid>
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="*"/>
+                                                                            <ColumnDefinition Width="Auto"/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <Label Text="{Binding Titulo}" FontSize="15" FontAttributes="Bold" TextColor="#2C3E50" Grid.Column="0"/>
+                                                                        <Label Text="{Binding Nota}" FontSize="15" TextColor="#C0392B" FontAttributes="Bold" Grid.Column="1"/>
+                                                                    </Grid>
+                                                                    <Label Text="{Binding Descripcion}" FontSize="13" TextColor="#7F8C8D" Margin="0,5,0,0"/>
+                                                                </StackLayout>
+                                                            </Frame>
+
+
+
+
+
+
+                                                        </DataTemplate>
+                                                    </BindableLayout.ItemTemplate>
+                                                </StackLayout>
                                             </StackLayout>
-                                        </StackLayout>
-                                    </DataTemplate>
-                                </BindableLayout.ItemTemplate>
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </StackLayout>
                             </StackLayout>
-                        </StackLayout>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
         </StackLayout>
+
     </ScrollView>
 </ContentPage>

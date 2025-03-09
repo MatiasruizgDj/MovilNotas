@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using MovilNotas.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,5 +14,7 @@ namespace MovilNotas.Views
             InitializeComponent();
             EstudiantesCollectionView.ItemsSource = estudiantes;
         }
+      
+
     }
 }
