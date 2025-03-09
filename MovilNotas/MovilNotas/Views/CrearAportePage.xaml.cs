@@ -3,14 +3,15 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MovilNotas.Models;
 using MovilNotas.Services;
+using System.Linq;
 
 namespace MovilNotas.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CrearAportePage : ContentPage
     {
-        private ApiService _apiService;
-        private CursoFlat _cursoSeleccionado; // Curso recibido
+        private readonly ApiService _apiService;
+        private readonly CursoFlat _cursoSeleccionado;
 
         public CrearAportePage(CursoFlat curso)
         {
@@ -18,55 +19,55 @@ namespace MovilNotas.Views
             _apiService = new ApiService();
             _cursoSeleccionado = curso;
 
-            // Mostrar información en la vista
             lblMateria.Text = curso.Materia;
             lblJornada.Text = curso.Jornada;
             lblNivel.Text = curso.Nivel;
             lblParalelo.Text = curso.Paralelo;
         }
 
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            categoriaPicker.ItemsSource = await _apiService.ObtenerCategoriasAsync();
+            bimestrePicker.ItemsSource = await _apiService.ObtenerBimestresAsync();
+        }
+
         private async void OnCrearAporteClicked(object sender, EventArgs e)
         {
-            string titulo = tituloEntry.Text;
-            string descripcion = descripcionEditor.Text;
-            string categoriaText = categoriaEntry.Text;
-            string bimestreText = bimestreEntry.Text;
-
-            if (string.IsNullOrEmpty(titulo) || string.IsNullOrEmpty(categoriaText) || string.IsNullOrEmpty(bimestreText))
+            if (categoriaPicker.SelectedItem == null ||
+                bimestrePicker.SelectedItem == null ||
+                string.IsNullOrEmpty(tituloEntry.Text))
             {
-                await DisplayAlert("Error", "Todos los campos son requeridos.", "OK");
+                await DisplayAlert("Aviso", "Seleccione una categoría, un bimestre e ingrese un título.", "OK");
                 return;
             }
 
-            int idCategoria = Convert.ToInt32(categoriaText);
-            int idBimestre = Convert.ToInt32(bimestreText);
-
-            Console.WriteLine($"📌 Enviando datos:");
-            Console.WriteLine($"  ➡️ idCategoria: {idCategoria}");
-            Console.WriteLine($"  ➡️ idBimestre: {idBimestre}");
-            Console.WriteLine($"  ➡️ Título: {titulo}");
-            Console.WriteLine($"  ➡️ Descripción: {descripcion}");
-            Console.WriteLine($"  ➡️ Materia: {_cursoSeleccionado.ProfesorMateriaId}");
-            Console.WriteLine($"  ➡️ Jornada: {_cursoSeleccionado.Jornada}");
-            Console.WriteLine($"  ➡️ Nivel: {_cursoSeleccionado.Nivel}");
-            Console.WriteLine($"  ➡️ Paralelo: {_cursoSeleccionado.Paralelo}");
-
-            var result = await _apiService.CrearAporteAsync(
-                idCategoria, idBimestre, titulo, descripcion,
-                _cursoSeleccionado.ProfesorMateriaId, _cursoSeleccionado.Jornada,
-                _cursoSeleccionado.Nivel, _cursoSeleccionado.Paralelo
-            );
-
-            if (result)
+            var aporte = new AporteSrweel
             {
-                await DisplayAlert("Éxito", "Aporte creado exitosamente", "OK");
+                id_categoria = ((CategoriaSrweel)categoriaPicker.SelectedItem).id,
+                id_bimestre = ((BimestreSrweel)bimestrePicker.SelectedItem).id,
+                titulo = tituloEntry.Text,
+                descripcion = descripcionEditor.Text ?? "",
+                id_materia = _cursoSeleccionado.IdMateria,
+                id_jornada = _cursoSeleccionado.IdJornada,
+                id_nivel = _cursoSeleccionado.IdNivel,
+                id_paralelo = _cursoSeleccionado.IdParalelo
+            };
+
+            var (exito, mensaje) = await _apiService.CrearAporteAsync(aporte);
+
+            if (exito)
+            {
+                await DisplayAlert("Éxito", mensaje, "OK");
                 await Navigation.PopAsync();
             }
             else
             {
-                await DisplayAlert("Error", "No se pudo crear el aporte.", "OK");
+                await DisplayAlert("Error", mensaje, "OK"); // Muestra el error detallado
             }
         }
+
 
     }
 }

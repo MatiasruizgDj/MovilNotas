@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovilNotas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfda9fbb0e4ef08db23ab90ed0d91d101a66661a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovilNotas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovilNotas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

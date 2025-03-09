@@ -33,7 +33,7 @@ namespace MovilNotas.Views
             {
                 await DisplayAlert("Éxito", "Login correcto", "OK");
                 // Pasar la lista de cursos a HomePage
-                await Navigation.PushAsync(new HomePage(resultado.Cursos));
+                await Navigation.PushAsync(new HomePage(resultado.Cursos, resultado.Id));
             }
             else
             {

@@ -25,12 +25,12 @@
                 <Label Text="Paralelo:" FontAttributes="Bold"/>
                 <Label x:Name="lblParalelo" />
 
-                <!-- Campos que el usuario debe ingresar -->
-                <Label Text="Categoría (ID):" />
-                <Entry x:Name="categoriaEntry" Placeholder="Ingrese el ID de categoría" Keyboard="Numeric" />
+                <!-- Pickers para Categoría y Bimestre -->
+                <Label Text="Categoría:" />
+                <Picker x:Name="categoriaPicker" Title="Seleccione una categoría" ItemDisplayBinding="{Binding nombre}" />
 
-                <Label Text="Bimestre (ID):" />
-                <Entry x:Name="bimestreEntry" Placeholder="Ingrese el ID de bimestre" Keyboard="Numeric" />
+                <Label Text="Bimestre:" />
+                <Picker x:Name="bimestrePicker" Title="Seleccione un bimestre" ItemDisplayBinding="{Binding nombre}" />
 
                 <Label Text="Título:" />
                 <Entry x:Name="tituloEntry" Placeholder="Ingrese el título" />

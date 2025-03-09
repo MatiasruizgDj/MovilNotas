@@ -10,7 +10,7 @@ namespace MovilNotas.Services
 {
 	public class ApiService
 	{
-		private readonly string BaseUrl = "http://192.168.1.3/WebServicesNotas/api";
+		private readonly string BaseUrl = "http://192.168.1.2:8081/WebServicesNotas/api";
 
 		public async Task<LoginResponse> LoginAsync(string correo, string password)
 		{
@@ -157,44 +157,59 @@ namespace MovilNotas.Services
 			}
 		}
 
-        public async Task<bool> CrearAporteAsync(int idCategoria, int idBimestre, string titulo, string descripcion, int idMateria, string jornada, string nivel, string paralelo)
+       
+
+
+        // Método genérico para obtener listas
+        private async Task<List<T>> ObtenerListaAsync<T>(string endpoint)
         {
-            try
+            using (HttpClient client = new HttpClient())
             {
-                using (HttpClient client = new HttpClient())
+                HttpResponseMessage response = await client.GetAsync($"{BaseUrl}/{endpoint}");
+                if (response.IsSuccessStatusCode)
                 {
-                    var data = new
-                    {
-                        id_categoria = idCategoria,
-                        id_bimestre = idBimestre,
-                        titulo = titulo,
-                        descripcion = descripcion,
-                        id_materia = idMateria,
-                        id_jornada = jornada,
-                        id_nivel = nivel,
-                        id_paralelo = paralelo
-                    };
-
-                    string json = JsonConvert.SerializeObject(data);
-                    StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                    HttpResponseMessage response = await client.PostAsync($"{BaseUrl}/aportes", content);
-
-                    string responseContent = await response.Content.ReadAsStringAsync(); // 🔍 Ver respuesta del servidor
-
-                    Console.WriteLine($"Respuesta del servidor: {response.StatusCode} - {responseContent}");
-
-                    return response.IsSuccessStatusCode;
+                    string json = await response.Content.ReadAsStringAsync();
+                    return JsonConvert.DeserializeObject<List<T>>(json);
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error al crear aporte: " + ex.Message);
-                return false;
+                return new List<T>();
             }
         }
 
 
+        public Task<List<CategoriaSrweel>> ObtenerCategoriasAsync()
+     => ObtenerListaAsync<CategoriaSrweel>("categorias");
 
+        // Repite lo mismo con los demás modelos:
+        public Task<List<BimestreSrweel>> ObtenerBimestresAsync()
+            => ObtenerListaAsync<BimestreSrweel>("bimestres");
+
+        public Task<List<MateriaSrweel>> ObtenerMateriasAsync(int idProfesor)
+            => ObtenerListaAsync<MateriaSrweel>($"materias/{idProfesor}");
+
+        public Task<List<JornadaSrweel>> ObtenerJornadasAsync()
+            => ObtenerListaAsync<JornadaSrweel>("jornadas");
+
+        public Task<List<NivelSrweel>> ObtenerNivelesAsync()
+            => ObtenerListaAsync<NivelSrweel>("niveles");
+
+        public Task<List<ParaleloSrweel>> ObtenerParalelosAsync()
+            => ObtenerListaAsync<ParaleloSrweel>("paralelos");
+
+        public async Task<(bool exito, string mensaje)> CrearAporteAsync(AporteSrweel aporte)
+        {
+            string json = JsonConvert.SerializeObject(aporte);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            using (HttpClient client = new HttpClient())
+            {
+                var response = await client.PostAsync($"{BaseUrl}/aportes", content);
+                string respuestaJson = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                    return (true, "Aporte creado exitosamente");
+                else
+                    return (false, respuestaJson); // Mensaje detallado desde la API
+            }
+        }
 
 
 

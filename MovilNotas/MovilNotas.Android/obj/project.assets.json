@@ -3453,17 +3453,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matia\\.nuget\\packages\\": {},
+    "C:\\Users\\oppsr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matia\\OneDrive\\Desktop\\MovilNotas\\MovilNotas\\MovilNotas.Android\\MovilNotas.Android.csproj",
+      "projectUniqueName": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas.Android\\MovilNotas.Android.csproj",
       "projectName": "MovilNotas.Android",
-      "projectPath": "C:\\Users\\matia\\OneDrive\\Desktop\\MovilNotas\\MovilNotas\\MovilNotas.Android\\MovilNotas.Android.csproj",
-      "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matia\\OneDrive\\Desktop\\MovilNotas\\MovilNotas\\MovilNotas.Android\\obj\\",
+      "projectPath": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas.Android\\MovilNotas.Android.csproj",
+      "packagesPath": "C:\\Users\\oppsr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -3471,7 +3471,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oppsr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3485,8 +3485,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\matia\\OneDrive\\Desktop\\MovilNotas\\MovilNotas\\MovilNotas\\MovilNotas.csproj": {
-              "projectPath": "C:\\Users\\matia\\OneDrive\\Desktop\\MovilNotas\\MovilNotas\\MovilNotas\\MovilNotas.csproj"
+            "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\MovilNotas.csproj": {
+              "projectPath": "C:\\Users\\oppsr\\OneDrive\\Escritorio\\git\\movilruiz\\MovilNotas\\MovilNotas\\MovilNotas\\MovilNotas.csproj"
             }
           }
         }
